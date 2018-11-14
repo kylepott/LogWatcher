@@ -3,4 +3,6 @@ LogWatcher is a utility to perform automated monitoring and alerting.  It is an 
 
 LogWatcher.sh is meant to be run on your local server and can be scheduled as a cron job.
 
-LogWatherBlue.sh is meant to run as a cron job within cPanel on a webhost.  If you schedule the cron job to run every minute you essentially have continuous monitoring and alerting.  If you added a grep phrase into the logwatcher scripts you could alert for specific user behavior.
+LogWatcherBlue.sh is meant to run as a cron job within cPanel on a webhost.  If you schedule the cron job to run every minute you essentially have continuous monitoring and alerting.  If you added a grep phrase into the logwatcher scripts you could alert for specific user behavior.
+
+The principle difference between LogWatcher.sh and LogWatcherBlue.sh is that LogWatcher requires an SSH login and it requries SMTP to be pre-configured.  LogWatcherBlue assumes direct access to the error log and it uses the webhost's settings to send an email using a terminal utility called mailx.
