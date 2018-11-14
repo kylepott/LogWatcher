@@ -1,5 +1,5 @@
 # LogWatcher
-LogWatcher is a utility to perform very simple automated system monitoring and alerting.  It is an ideal solution to use in conjunction with a web app that has a sound event logging architecture implemented.  LogWatcher simply watches an error log file for any anomalous behavior.  If someone attempts a log in, attempts to read the database, hack the UL, or any other adverse behavior that is landing in an error log file, LogWatcher can send an email alert to make you aware.
+LogWatcher is a utility to perform very simple automated system monitoring and alerting.  It is an ideal solution to use in conjunction with a web app that has a sound event logging architecture implemented.  LogWatcher simply watches an error log file for any anomalous behavior.  If someone attempts a log in, attempts to read the database, hack the URL, or any other adverse behavior that is landing in an error log file, LogWatcher can send an email alert to make you aware.
 
 LogWatcher.sh is meant to be run on your local server and can be scheduled as a cron job.
 
