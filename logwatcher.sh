@@ -7,7 +7,7 @@
 log_file=error_log
 
 # rename the source file
-# if the source file does not exist a warning is displayed, but the script will keep processing just fine.
+# if the source file does not exist, create it
 create_file(){
   if [ ! -f $log_file ]; then
     touch error_log
