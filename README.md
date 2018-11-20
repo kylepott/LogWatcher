@@ -8,3 +8,13 @@ LogWatcherBlue.sh is meant to run as a cron job within cPanel on a webhost.  If 
 The principle difference between LogWatcher.sh and LogWatcherBlue.sh is that LogWatcher requires an SSH login and it requries SMTP to be pre-configured.  LogWatcherBlue assumes direct access to the error log and it uses the webhost's settings to send an email using a terminal utility called mailx.  Of course if you used your cell carriers SMS gateway you could have text alerts.
 
 Both LogWatcher.sh and LogWatcherBlue.sh will require you to configure your SSH access and the paths to your error_log file.
+
+## Usage
+
+```bash
+❯ ./logwatcher.sh
+
+    Usage: ./logwatcher.sh [-u] [-r] [-f] [-l] [-e]
+
+    Example: ./logwatcher.sh -u my_user -r my_server.my_domain.com -f /path/to/remote/file -l /path/to/local/file -e myself@me.com
+```
