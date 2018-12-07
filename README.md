@@ -18,3 +18,8 @@ Both LogWatcher.sh and LogWatcherBlue.sh will require you to configure your SSH 
 
     Example: ./logwatcher.sh -u my_user -r my_server.my_domain.com -f /path/to/remote/file -l /path/to/local/file -e myself@me.com
 ```
+
+## Integrity
+
+SHA-256 checksum for logwatcher.sh 9d7dfcf0d6dceabddf272fd45bbab26f7a9008e38f467eb7f24a42d8d387842b
+SHA-256 checksum for logwatcherblue.sh ba346500fa59969fc739def6c5f3d68f60b40840915b3d701692dd46eeca2e56
